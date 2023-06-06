@@ -17,7 +17,6 @@ val java = (project in file("java"))
 
 val reproducer = (project in file("."))
 .settings(libraryDependencies ++= Seq(
-    netflixConcurrencyLimitsCore,
     jupiterInterface,
     junitJupiterApi,
     junitJupiterEngine,
